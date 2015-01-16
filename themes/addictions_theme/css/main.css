@@ -25,4 +25,45 @@ a:visited {
   display:block;
 }
 
+.page-faculty .region-secondary-content .hero-copy {
+  float:left;
+  width:63%;
+}
 
+.page-faculty .region-secondary-content .hero-caption {
+  display:block;
+  font-size:1.2em;
+}
+
+.region-secondary-content .views-field-field-hero-image {
+  width:214px;
+}
+
+@media only screen and (max-width:690px) {
+  
+  .region-secondary-content .views-field-field-hero-image {
+    width:30%;
+    margin-right:2%;
+  }
+
+  .page-faculty .region-secondary-content .hero-copy { 
+    padding:2%;
+  }
+
+  .page-faculty .region-secondary-content .hero-caption {
+    font-size:1.1em;
+  }
+}
+
+@media only screen and (max-width:690px) {
+  .page-faculty .region-secondary-content .views-field-field-hero-image {
+    display:none;
+  }
+  .page-faculty .region-secondary-content .hero-copy {
+    width:100%;
+  }
+
+  .page-faculty .region-secondary-content .hero-title {
+    font-size:1.4em;
+  }
+}
